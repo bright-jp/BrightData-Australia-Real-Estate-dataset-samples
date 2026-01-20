@@ -1,87 +1,87 @@
-# Australia Real Estate Dataset Sample
+# オーストラリア不動産データセットサンプル
 
-<h2>A sample dataset of 1,000 records</h2>
+<h2>1,000件のレコードのサンプルデータセット</h2>
 
-<a href="https://brightdata.com">
+<a href="https://brightdata.jp">
     <img src="https://github.com/luminati-io/BrightData-Australia-Real-Estate-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
-This **Australia Real Estate Dataset Sample** includes **1,000 records** and was extracted using the **Bright Data API**.
+この**オーストラリア不動産データセットサンプル**には**1,000件のレコード**が含まれており、**Bright Data API**を使用して抽出されています。
 
-## Data Points
+## データポイント
 
 | Field Name | Description |
 |------------|-------------|
-| `rea_property_id` | Unique identifier for the property listing. |
-| `property_type` | Type of property, such as House, Unit, or Apartment. |
-| `state` | Australian state where the property is located. |
-| `postcode` | Postal code of the property's location. |
-| `year_built` | Year the property was constructed. |
-| `last_sold_date` | Date when the property was last sold. |
-| `last_sold_agency` | Real estate agency that last sold the property. |
-| `bedrooms` | Number of bedrooms in the property. |
-| `bathrooms` | Number of bathrooms in the property. |
-| `findAgentsURI` | URL to find agents related to the property listing. |
-| `floor_area` | Total floor area of the property. |
-| `fullSuburb` | Full name of the suburb where the property is located. |
-| `house_type` | Specific type of house, indicating structural characteristics. |
-| `lat` | Latitude coordinate of the property's location. |
-| `lon` | Longitude coordinate of the property's location. |
-| `photo_count` | Number of photos available for the property listing. |
-| `images_urls` | URLs of images associated with the property listing. |
-| `street_address` | Street address of the property. |
-| `suburb` | Suburb where the property is located. |
-| `url` | URL to the property's online listing. |
-| `land_size` | Size of the land on which the property is situated. |
-| `sales_history` | Historical sales data of the property. |
-| `land_size_num` | Numerical value of the land size. |
-| `land_size_unit` | Unit of measurement for the land size. |
-| `floor_area_num` | Numerical value of the floor area. |
-| `avm_estimate_lastUpdated` | Date when the automated valuation model was last updated. |
-| `estimated_price` | Estimated market price of the property. |
-| `estimated_price_confidence` | Confidence level in the estimated price value. |
-| `estimated_value` | Calculated value of the property based on various factors. |
-| `estimated_value_high` | High range of the estimated property value. |
-| `estimated_value_low` | Low range of the estimated property value. |
-| `offMarket` | Indicates whether the property is currently off the market. |
-| `parking` | Details about parking availability at the property. |
-| `listing_type` | Type of listing, such as sale or rent. |
-| `availability` | Current availability status of the property. |
-| `rent_price` | Price at which the property is available for rent. |
-| `rent_currency` | Currency in which the rent price is denominated. |
-| `rent_bond` | Bond amount required for renting the property. |
-| `sold_date` | Official date when the property was sold. |
-| `property_history_link` | Link to the property's historical data. |
-| `description` | Detailed description of the property listing. |
-| `agents` | Information about the agents managing the property listing. |
-| `branding` | Branding information related to the property listing. |
-| `listed_at` | Date when the property was listed on the market. |
+| `rea_property_id` | 物件掲載の一意の識別子です。 |
+| `property_type` | House、Unit、Apartmentなどの物件種別です。 |
+| `state` | 物件が所在するオーストラリアの州です。 |
+| `postcode` | 物件所在地の郵便番号です。 |
+| `year_built` | 物件が建設された年です。 |
+| `last_sold_date` | 物件が最後に売却された日付です。 |
+| `last_sold_agency` | 物件を最後に売却した不動産会社です。 |
+| `bedrooms` | 物件の寝室数です。 |
+| `bathrooms` | 物件のバスルーム数です。 |
+| `findAgentsURI` | 物件掲載に関連するエージェントを検索するためのURLです。 |
+| `floor_area` | 物件の総床面積です。 |
+| `fullSuburb` | 物件が所在する郊外（suburb）の正式名称です。 |
+| `house_type` | 構造的特徴を示す、具体的な住宅タイプです。 |
+| `lat` | 物件所在地の緯度座標です。 |
+| `lon` | 物件所在地の経度座標です。 |
+| `photo_count` | 物件掲載で利用可能な写真の枚数です。 |
+| `images_urls` | 物件掲載に関連付けられた画像のURLです。 |
+| `street_address` | 物件の住所（番地・通り名）です。 |
+| `suburb` | 物件が所在する郊外（suburb）です。 |
+| `url` | 物件のオンライン掲載ページのURLです。 |
+| `land_size` | 物件が建っている土地の面積です。 |
+| `sales_history` | 物件の過去の売買データです。 |
+| `land_size_num` | 土地面積の数値です。 |
+| `land_size_unit` | 土地面積の測定単位です。 |
+| `floor_area_num` | 床面積の数値です。 |
+| `avm_estimate_lastUpdated` | 自動評価モデル（AVM）が最後に更新された日付です。 |
+| `estimated_price` | 物件の推定市場価格です。 |
+| `estimated_price_confidence` | 推定価格値の信頼度レベルです。 |
+| `estimated_value` | 各種要因に基づいて算出された物件価値です。 |
+| `estimated_value_high` | 推定物件価値の高いレンジです。 |
+| `estimated_value_low` | 推定物件価値の低いレンジです。 |
+| `offMarket` | 物件が現在マーケット外かどうかを示します。 |
+| `parking` | 物件の駐車可否に関する詳細です。 |
+| `listing_type` | saleやrentなどの掲載タイプです。 |
+| `availability` | 物件の現在の提供状況（空き状況）です。 |
+| `rent_price` | 物件の賃貸価格です。 |
+| `rent_currency` | 賃貸価格の通貨です。 |
+| `rent_bond` | 賃貸に必要なボンド（保証金）金額です。 |
+| `sold_date` | 物件が売却された公式日付です。 |
+| `property_history_link` | 物件の履歴データへのリンクです。 |
+| `description` | 物件掲載の詳細説明です。 |
+| `agents` | 物件掲載を担当するエージェント情報です。 |
+| `branding` | 物件掲載に関連するブランディング情報です。 |
+| `listed_at` | 物件が市場に掲載された日付です。 |
 
 
-## Use Cases
+## ユースケース
 
-### 1. Market Trend Analysis
-Utilize the dataset to identify and forecast trends in the Australian real estate market, aiding investment strategies and policy-making.
+### 1. 市場トレンド分析
+データセットを活用してオーストラリア不動産市場のトレンドを特定・予測し、投資戦略や政策立案を支援します。
 
-### 2. Property Valuation Models
-Develop machine learning models to predict property values based on various factors, enhancing appraisal accuracy for real estate professionals.
+### 2. 物件評価モデル
+さまざまな要因に基づいて物件価値を予測する機械学習モデルを開発し、不動産の専門家の鑑定精度を向上させます。
 
-### 3. Competitive Landscape Evaluation
-Analyze competitor activities and strategies by examining agency sales data, helping real estate businesses improve their market positioning.
+### 3. 競争環境評価
+不動産会社の売買データを調べることで競合の活動や戦略を分析し、不動産ビジネスが市場でのポジショニングを改善できるよう支援します。
 
 
 
-## File Formats
+## ファイル形式
 
-The dataset is available in multiple formats:
-- **CSV** (included in this sample)
+データセットは複数の形式で提供されています:
+- **CSV**（このサンプルに含まれます）
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
 - **Parquet**
 - **Compressed (.gz)**
 
-## Delivery Options
+## 配信オプション
 
 - **Email**
 - **API Download**
@@ -92,26 +92,26 @@ The dataset is available in multiple formats:
 - **Snowflake**
 - **SFTP**
 
-## Update Frequency
+## 更新頻度
 
-Datasets can be updated on various schedules:
-- **Once** (one-time delivery)
+データセットはさまざまなスケジュールで更新できます:
+- **Once**（1回限りの配信）
 - **Daily**
 - **Weekly**
 - **Monthly**
 - **Quarterly**
 - **Custom schedules**
 
-## Data Enrichment
+## データエンリッチメント
 
-Enhance your dataset with additional data points based on your specific requirements. Contact us for custom enrichment options.
+特定の要件に基づいて追加のデータポイントを付与し、データセットを強化します。カスタムのエンリッチメントオプションについてはお問い合わせください。
 
-**[Get the full Australia Real Estate dataset](https://brightdata.com/products/datasets/real-estate)**
+**[オーストラリア不動産データセットのフル版を入手する](https://brightdata.jp/products/datasets/real-estate)**
 
 ---
 
-## Free Access for Researchers and NGOs
+## 研究者およびNGO向けの無料アクセス
 
-The Bright Initiative offers free access to **[Web Scraper APIs](https://brightdata.com/products/web-scraper)** and **[ready-to-use datasets](https://brightdata.com/products/datasets)** for academic researchers, NGOs, and NPOs working on environmental and social causes. 
+Bright Initiativeは、環境および社会的課題に取り組む学術研究者、NGO、NPO向けに、**[Web Scraper APIs](https://brightdata.jp/products/web-scraper)**および**[すぐに使えるデータセット](https://brightdata.jp/products/datasets)**への無料アクセスを提供しています。 
 
-Apply for free access at [brightinitiative.com](https://brightinitiative.com).
+無料アクセスの申請は[brightinitiative.com](https://brightinitiative.com)から行えます。
